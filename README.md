@@ -12,8 +12,8 @@
 </p>
 
 <p align="center">
-  Yiqi Wang, Jiaqi Zhang, Taotao Cai, Zirui Liu, Qingqiang Sun, Zequn Sun,
-  Zhangkai Wu, Mingkai Zheng, Yanming Zhu
+  Yiqi Wang, Jiaqi Zhang, Taotao Cai, Zirui Liu, Zhangkai Wu, Zequn Sun,
+  Manqing Dong, Mingkai Zheng, Yanming Zhu
 </p>
 
 > This repository hosts the survey manuscript, figures, and reading guide for
