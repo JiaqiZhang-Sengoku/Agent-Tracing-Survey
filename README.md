@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="Agent_Tracing_Survey.pdf"><img src="[https://img.shields.io/badge/Paper-PDF-b31b1b.svg?style=flat](https://arxiv.org/pdf/2606.04990)" alt="Paper PDF"></a>
+  <a href="Agent_Tracing_Survey.pdf"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b.svg?style=flat" alt="Paper PDF"></a>
   <img src="https://img.shields.io/badge/Topic-LLM%20Agents-2b6cb0.svg?style=flat" alt="LLM Agents">
   <img src="https://img.shields.io/badge/Focus-Provenance%20%26%20Tracing-2f855a.svg?style=flat" alt="Provenance and Tracing">
   <img src="https://img.shields.io/badge/Year-2026-805ad5.svg?style=flat" alt="Year 2026">
