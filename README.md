@@ -413,7 +413,7 @@ If you find this survey useful, please consider citing it:
 ```bibtex
 @misc{wang2026agenttracestotrust,
   title        = {From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents},
-  author       = {Wang, Yiqi and Zhang, Jiaqi and Cai, Taotao and Liu, Zirui and Sun, Qingqiang and Sun, Zequn and Wu, Zhangkai and Zheng, Mingkai and Shi, Tianyu and Zhu, Yanming},
+  author       = {Wang, Yiqi and Zhang, Jiaqi and Wu, Zhangkai and Cai, Taotao and Liu, Zirui and Sun, Zequn and Manqing, Dong and Zheng, Mingkai and Yin, Xuefei and Zhu, Yanming},
   year         = {2026},
   note         = {Survey manuscript}
 }
