@@ -1,29 +1,12 @@
-<h1 align="center">From Agent Traces to Trust</h1>
+<h1>From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents</h1>
 
-<p align="center">
-  <b>A Survey of Evidence Tracing and Execution Provenance in LLM Agents</b>
-</p>
+> Yiqi Wang, Jiaqi Zhang, Taotao Cai, Zirui Liu, Zhangkai Wu, Zequn Sun, Manqing Dong, Mingkai Zheng, Yanming Zhu</b>
 
-<p align="center">
-  <a href="Agent_Tracing_Survey.pdf"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b.svg?style=flat" alt="Paper PDF"></a>
-  <img src="https://img.shields.io/badge/Topic-LLM%20Agents-2b6cb0.svg?style=flat" alt="LLM Agents">
-  <img src="https://img.shields.io/badge/Focus-Provenance%20%26%20Tracing-2f855a.svg?style=flat" alt="Provenance and Tracing">
-  <img src="https://img.shields.io/badge/Year-2026-805ad5.svg?style=flat" alt="Year 2026">
-</p>
+## 🔥 News
 
-<p align="center">
-  Yiqi Wang, Jiaqi Zhang, Taotao Cai, Zirui Liu, Zhangkai Wu, Zequn Sun,
-  Manqing Dong, Mingkai Zheng, Yanming Zhu
-</p>
+`Jun. 12, 2026` Initial release of the Survey PDF and Project README.
 
-> This repository hosts the survey manuscript, figures, and reading guide for
-> <b>From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents</b>.
-
-## News
-
-`Jun. 12, 2026` Initial release of the survey PDF and project README.
-
-## Contents
+## 📌 Contents
 
 - [Overview](#overview)
 - [Why Agent Provenance?](#why-agent-provenance)
@@ -37,7 +20,7 @@
 - [Citation](#citation)
 - [Contact](#contact)
 
-## Overview
+## 💡 Overview
 
 Large language model (LLM) agents increasingly solve complex tasks by using
 retrieval systems, external tools, memory modules, environments, and other
@@ -59,7 +42,7 @@ This survey studies that accountability gap through two connected ideas:
   <img src="Figures/Fig1.png" alt="Overview of evidence tracing and execution provenance for LLM agents" width="100%">
 </p>
 
-## Why Agent Provenance?
+## 🤔 Why Agent Provenance?
 
 Modern LLM agents are no longer simple text generators. They plan, retrieve,
 call APIs, execute code, update memory, interact with web or GUI environments,
@@ -76,7 +59,7 @@ This survey argues that trustworthy agents need infrastructure that can:
   and multi-agent communication;
 - support audit, recovery, governance, and runtime safety.
 
-## Core Concepts
+## 🤓 Core Concepts
 
 | Concept | Meaning in this survey |
 | --- | --- |
@@ -86,7 +69,7 @@ This survey argues that trustworthy agents need infrastructure that can:
 | Provenance graph | A graph representation whose nodes are evidence or execution units and whose edges encode relations such as `SUPPORT`, `DERIVE`, `DEPEND-ON`, `CONTRADICT`, `INVALIDATE`, and `UPDATE`. |
 | Process-level accountability | The ability to verify not only what answer an agent produced, but how and why that answer or action was produced. |
 
-## Survey Contributions
+## 🎉 Survey Contributions
 
 This survey makes five main contributions:
 
@@ -103,7 +86,7 @@ This survey makes five main contributions:
    for unified schemas, claim-level provenance, recovery-oriented evaluation,
    privacy-aware audit, and trustworthy agent infrastructure.
 
-## Survey Roadmap
+## 🗺️ Survey Roadmap
 
 | Section | Focus |
 | --- | --- |
@@ -117,7 +100,7 @@ This survey makes five main contributions:
 | 8 | Open problems and future directions. |
 | 9 | Conclusion. |
 
-## Categorized References
+## 📖 Categorized References
 
 The references are organized around the survey's process-level accountability
 pipeline:
@@ -301,7 +284,7 @@ This categorized reading list is generated from
 - [LLM-Based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/abs/2509.18970) - *arXiv 2025* - Adjacent survey on hallucinations in LLM agents.
 <!-- REFERENCES:END -->
 
-## Figures
+## 🎥 Figures
 
 ### Figure 1: Evidence Tracing and Execution Provenance
 
@@ -366,7 +349,7 @@ underdeveloped.
   <img src="Figures/Fig6.png" alt="Benchmark coverage heatmap for provenance-related evaluation capabilities" width="80%">
 </p>
 
-## Open Problems
+## ❔ Open Problems
 
 The survey highlights several directions for future work:
 
@@ -384,43 +367,27 @@ The survey highlights several directions for future work:
 - **Privacy-aware audit infrastructure** that balances trace completeness with
   data minimization, governance, and secure provenance storage.
 
-## Repository Structure
-
-```text
-agent-tracing-survey/
-|-- .gitignore
-|-- Agent_Tracing_Survey.pdf
-|-- CITATION.cff
-|-- Figures/
-|   |-- Fig1.png
-|   |-- Fig2.png
-|   |-- Fig3.png
-|   |-- Fig4.png
-|   |-- Fig5.png
-|   `-- Fig6.png
-|-- src/
-|   |-- extract_references.py
-|   |-- output/
-|   |   `-- reference_list.md
-|   `-- reference_list.psv
-`-- README.md
-```
-
-## Citation
+## 📝 Citation
 
 If you find this survey useful, please consider citing it:
 
 ```bibtex
-@misc{wang2026agenttracestotrust,
-  title        = {From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents},
-  author       = {Wang, Yiqi and Zhang, Jiaqi and Wu, Zhangkai and Cai, Taotao and Liu, Zirui and Sun, Zequn and Manqing, Dong and Zheng, Mingkai and Yin, Xuefei and Zhu, Yanming},
-  year         = {2026},
-  note         = {Survey manuscript}
+@article{AgentTraces,
+  author={Yiqi Wang and
+          Jiaqi Zhang and
+          Taotao Cai and
+          Zirui Liu and
+          Qingqiang Sun and
+          Zequn Sun and
+          Zhangkai Wu and
+          Manqing Dong and
+          Mingkai Zheng and
+          Xuefei Yin and
+          Yanming Zhu},
+  title={From Agent Traces to Trust: {A} Survey of Evidence Tracing and Execution Provenance in {LLM} Agents},
+  journal={CoRR},
+  volume={abs/2606.04990},
+  year={2026}
 }
+
 ```
-
-## Contact
-
-For questions, suggestions, or collaboration, please contact:
-
-- Yiqi Wang: `yiqi.wang.jennie@gmail.com`
