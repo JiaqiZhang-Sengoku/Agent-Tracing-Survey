@@ -2,10 +2,6 @@
 
 > Yiqi Wang, Jiaqi Zhang, Taotao Cai, Zirui Liu, Zhangkai Wu, Zequn Sun, Manqing Dong, Mingkai Zheng, Yanming Zhu</b>
 
-## 🔥 News
-
-`Jun. 12, 2026` Initial release of the Survey PDF and Project README.
-
 ## 📌 Contents
 
 - [Overview](#overview)
