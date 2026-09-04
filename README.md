@@ -1,5 +1,5 @@
-<h1>From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents</h1>
-
+# From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents
+## 📖[**Paper**](https://arxiv.org/abs/2606.04990)
 > Yiqi Wang, Jiaqi Zhang, Taotao Cai, Zirui Liu, Zhangkai Wu, Zequn Sun, Manqing Dong, Mingkai Zheng, Yanming Zhu</b>
 
 ## 📌 Contents
